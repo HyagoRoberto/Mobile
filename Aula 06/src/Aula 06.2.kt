@@ -1,0 +1,16 @@
+fun main(){
+
+    val valor = arrayListOf(10,2,3,4,5,6,7,8,9,100).sum()
+
+    val media = valor / 10
+
+    println("A média dos valores é -> $media")
+
+    if(media <= 5){
+        println("Média é menor ou igual que 5")
+    }
+    if (media > 5){
+        println("Média é maior que 5")
+    }
+
+}
